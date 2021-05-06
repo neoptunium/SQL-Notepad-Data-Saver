@@ -10,4 +10,6 @@ This is a program that allows you to put down your notes and any information/dat
   Email: *neoptunium@gmail.com*
 
 # Dependencies 
-NONE - Just needs all the files that are included!
+SQL Database
+
+Setup & Edit Database Information in the PHP files
