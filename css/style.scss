@@ -1,0 +1,56 @@
+$colormain: #FFFF99;
+$secondarycolor: #fdfd7a;
+$center: center;
+$bordermain: 3px solid black;
+$fontsizemain: 30px;
+$fontmain: "Times New Roman";
+$fontsizesecondary: 19px;
+.top-div {
+    border: $bordermain;
+    text-align: $center;
+    font-size: $fontsizemain;
+    font-family: $fontmain;
+    box-sizing: border-box;
+    width: 30%;
+    margin: auto;
+    background-color: $secondarycolor;
+    border-radius: 25px;
+    padding: 13px;
+    width: 500px;
+    height: 75px;
+}
+
+body {
+    background-color: $colormain;
+}
+
+.center-input {
+    background-color: $secondarycolor;
+    margin: auto;
+    display: block;
+    width: 1750px;
+    height: 680px;
+    border-radius: 25px;
+    padding: 13px;
+}
+
+h5 {
+    text-align: center;
+    font-family: $fontmain;
+    font-size: $fontsizesecondary;
+}
+
+button {
+    font-family: $fontmain;
+    font-size: 13px;
+    border: 0;
+    padding: 10px 50px;
+    margin: 0;
+    border: 3px solid black;
+    background: #fdfd7a;
+    border-radius: 30px;
+    box-shadow: 1px 1px black;
+    transition: all 0.5s;
+    display: inline-block;
+    margin-right: 20px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Notepad Data Saver</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" media="screen" href="/css/style.css">
+</head>
+
+<body>
+    <br>
+    <div class="top-div">
+        <a>SQL Notepad Data Saver</a>
+    </div>
+    <br>
+    <div>
+        <div style="text-align: center;">
+            <form method="post" action="/resetdata.php">
+                <button>Reset All Saved Data</button>
+            </form>
+            <br>
+            <form method="post" action="/saveddata.php">
+                <button>Saved Data</button>
+            </form>
+            <br>
+            <form method="post" action="/savedata.php">
+                <button type="submit" value="Submit">Save</button>
+        </div>
+    </div>
+    <br>
+    <textarea type="text" name="username" id="textbox" class="center-input" onfocus="this.value=''"></textarea>
+    </form>
+    </div>
+    <script type="text/javascript" src="/js/script.js"></script>
+</body>
+
+</html>
